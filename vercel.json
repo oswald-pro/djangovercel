@@ -1,7 +1,7 @@
 {
     "builds": [{
         "src": "mysystem/wsgi.py",
-        "use": "@oswald-pro/vercel-python-wsgi",
+        "use": "@oswald-pro/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
